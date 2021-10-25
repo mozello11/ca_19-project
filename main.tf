@@ -1,7 +1,7 @@
 locals {
   producer_lambda_name = "${var.prefix}-${terraform.workspace}-producer_lambda"
   consumer_lambda_name = "${var.prefix}-${terraform.workspace}-consumer_lambda"
-  alb_name             = "${var.prefix}-${terraform.workspace}-alb-test-autobuild"
+  alb_name             = "${var.prefix}-${terraform.workspace}-alb-test"
   tg_name              = "${var.prefix}-${terraform.workspace}-tg"
   lamda1_role_name     = "${var.prefix}-${terraform.workspace}-lambda1-role"
   lamda2_role_name     = "${var.prefix}-${terraform.workspace}-lambda2-role"
